@@ -5,13 +5,13 @@ using BepInEx.Logging;
 using HarmonyLib;
 using UnityEngine;
 
-namespace NOCockpitZoom
+namespace NOCZ
 {
     [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
     public class Plugin : BaseUnityPlugin
     {
-        internal const string PluginGuid = "com.roque.NOCockpitZoom";
-        internal const string PluginName = "NOCockpitZoom";
+        internal const string PluginGuid = "com.roque.NOCZ";
+        internal const string PluginName = "NOCZ";
         internal const string PluginVersion = "0.1.0";
 
         // The game's own cockpit clamp (CameraCockpitState.minFOV/maxFOV). The config can only
