@@ -16,8 +16,8 @@ NOCZ adds two settings, **Min FOV** and **Max FOV**, that set your own limits in
 ## Install
 
 1. Install [BepInEx 5](https://github.com/BepInEx/BepInEx/releases) for Nuclear Option, if you haven't already.
-2. Download `NOCZ.dll` from the [latest release](https://github.com/roke77/NOCZ/releases/latest).
-3. Copy `NOCZ.dll` into `BepInEx/plugins/` in your Nuclear Option install folder.
+2. Download `NOCZ_<version>.zip` from the [latest release](https://github.com/roke77/NOCZ/releases/latest).
+3. Extract it into `BepInEx/plugins/` in your Nuclear Option install folder, so you end up with `BepInEx/plugins/NOCZ/NOCZ.dll`.
 4. Start the game.
 
 **Optional, recommended:** install [BepInEx.ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager) to change the settings from an in-game menu.
@@ -62,7 +62,7 @@ Lower numbers mean more zoom. For example, Min FOV 30 and Max FOV 80 let you zoo
 
 ## Uninstall
 
-Delete `NOCZ.dll` from `BepInEx/plugins/`, and `com.roque.NOCZ.cfg` from `BepInEx/config/` if you want the settings gone too.
+Delete the `NOCZ` folder from `BepInEx/plugins/`, and `com.roque.NOCZ.cfg` from `BepInEx/config/` if you want the settings gone too.
 
 ## Build
 
